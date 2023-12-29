@@ -40,7 +40,7 @@ def request_chat_completion(prompt):
         ],
         stream=True
     )
-    print_streaming_response(response)
+    retrun response
 
 def print_streaming_response(response):
     message = ""
